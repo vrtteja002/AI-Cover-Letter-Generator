@@ -8,7 +8,7 @@ from openai import OpenAI
 api_key = st.secrets["OPENAI_API_KEY"]
 
 # Initialize the OpenAI client
-client = OpenAI(api_key=api_key)
+client = OpenAI(api_key=api_key,temperature=0.5)
 
 # Define a function to extract text from PDF and generate a cover letter
 def generate_cover_letter(company_name, position, job_description, pdf_file):
