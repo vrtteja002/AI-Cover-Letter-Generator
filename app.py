@@ -61,7 +61,7 @@ def generate_cover_letter(company_name, position, job_description, resume_text):
     return response.choices[0].message.content
 
 # Streamlit app
-st.title("Efficient Cover Letter Generator")
+st.title("Cover Letter Generator")
 
 with st.form("cover_letter_form"):
     company_name = st.text_input("Company Name")
