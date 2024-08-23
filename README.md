@@ -9,13 +9,6 @@ This project is a Streamlit-based web application that generates tailored cover 
 - Integration with OpenAI's GPT-3.5-turbo for natural language generation
 - Customized cover letter generation based on job details and resume content
 
-## Requirements
-- Python 3.x
-- Streamlit
-- LangChain
-- OpenAI Python Client
-- PyPDF2 (for PDF processing)
-
 ## Setup and Installation
 1. Clone this repository:
    ```
